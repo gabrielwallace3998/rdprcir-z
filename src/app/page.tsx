@@ -30,7 +30,7 @@ export default function Home() {
       pointLight: { pos: [-3.5, -0.7, -3.9] as [number, number, number], intensity: 49, color: "#ff0000" },
       spotLight: { pos: [20, 6.3, 20] as [number, number, number], intensity: 626, color: "#ffffff", angle: 0.3 },
       room: { floorColor: "#000000", wallColor: "#470000", gridColor: "#1a1a1a", gridOpacity: 0.1, roomPos: [0, -6.5, 0] as [number, number, number] },
-      cardPos: [10, 66] as [number, number],
+      cardPos: [10, 72] as [number, number],
       cardWidth: 680
     },
     s1M: {
@@ -51,7 +51,7 @@ export default function Home() {
       pointLight: { pos: [-3.5, -0.7, -3.9] as [number, number, number], intensity: 771, color: "#ff0000" },
       spotLight: { pos: [20, 6.3, 20] as [number, number, number], intensity: 626, color: "#ffffff", angle: 0.3 },
       room: { floorColor: "#000000", wallColor: "#470000", gridColor: "#1a1a1a", gridOpacity: 0.1, roomPos: [0, -6.5, 0] as [number, number, number] },
-      cardPos: [11, 66] as [number, number],
+      cardPos: [11, 72] as [number, number],
       cardWidth: 690
     },
     s2M: {
@@ -72,7 +72,7 @@ export default function Home() {
       pointLight: { pos: [-3.5, -0.7, -3.9] as [number, number, number], intensity: 1480, color: "#ff0000" },
       spotLight: { pos: [20, 6.3, 20] as [number, number, number], intensity: 800, color: "#ff0000", angle: 0.3 },
       room: { floorColor: "#000000", wallColor: "#470000", gridColor: "#1a1a1a", gridOpacity: 0.1, roomPos: [0, -6.5, 0] as [number, number, number] },
-      cardPos: [9, 67] as [number, number],
+      cardPos: [9, 72] as [number, number],
       cardWidth: 690
     },
     s3M: {

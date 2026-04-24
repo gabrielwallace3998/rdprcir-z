@@ -32,7 +32,7 @@ export default function HUD() {
       <header className="fixed inset-0 p-6 z-[90] font-jetbrains pointer-events-none select-none">
         
         {/* Superior Esquerda: Informações do Sujeito */}
-        <div className="absolute top-8 left-8 flex flex-col gap-1">
+        <div className="absolute top-4 left-4 md:top-6 md:left-8 flex flex-col gap-1">
           <div className="flex items-center gap-3 mb-2">
             <div className="w-6 h-6 relative opacity-80">
                 <Image 
@@ -61,7 +61,7 @@ export default function HUD() {
         </div>
 
         {/* Superior Direita: Status e Relógio */}
-        <div className="absolute top-8 right-8 flex flex-col items-end gap-1 text-right">
+        <div className="absolute top-4 right-4 md:top-6 md:right-8 flex flex-col items-end gap-1 text-right">
           <div className="flex items-center gap-2">
             <div className="text-[9px] md:text-[11px] border border-accent-blood px-2 py-0.5 text-accent-blood font-black uppercase animate-pulse bg-accent-blood/5">
               [SISTEMA_TRAVADO: ON]

@@ -4,8 +4,8 @@
 
 Uma interface de terminal de alta fidelidade desenvolvida para o monitoramento em tempo real de espécimes biológicos. Este projeto funde design industrial brutalista com tecnologias modernas de renderização 3D, criando uma experiência imersiva de "User Interface" (UI) cinematográfica.
 
-![Banner do Projeto](public/assets/carregamento-gif.gif) 
-*(Sugestão: Substitua por uma captura de tela de alta resolução do terminal em ação)*
+![Banner do Projeto](assets/tela.png) 
+
 
 ## 🔬 Visão Geral
 O **Espécime Z** não é apenas um dashboard; é um sistema de visualização técnica que simula o controle de uma instalação da Umbrella. Utilizando **React Three Fiber**, o terminal renderiza modelos 3D que reagem dinamicamente ao progresso de navegação (scroll), simbolizando estados de agressividade e vitalidade do espécime.
