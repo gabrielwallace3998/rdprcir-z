@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Orbitron, JetBrains_Mono, Michroma } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const orbitron = Orbitron({
@@ -38,6 +40,8 @@ export default function RootLayout({
         <div className="noise" />
         <div className="vignette" />
         {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
