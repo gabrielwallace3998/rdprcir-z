@@ -69,7 +69,13 @@ function BioParticles({ count = 1000, color = "#ff0000", intensity = 1 }) {
   return (
     <points ref={points}>
       <bufferGeometry>
-        <bufferAttribute attach="attributes-position" count={particles.length / 3} array={particles} itemSize={3} />
+        <bufferAttribute 
+          attach="attributes-position" 
+          count={particles.length / 3} 
+          array={particles} 
+          itemSize={3} 
+          args={[particles, 3]} 
+        />
       </bufferGeometry>
       <pointsMaterial size={0.05 * intensity} color={color} transparent opacity={0.4 * Math.min(1, intensity)} sizeAttenuation blending={THREE.AdditiveBlending} />
     </points>
@@ -96,7 +102,13 @@ function DustParticles({ count = 800 }) {
   return (
     <points ref={points}>
       <bufferGeometry>
-        <bufferAttribute attach="attributes-position" count={particles.length / 3} array={particles} itemSize={3} />
+        <bufferAttribute 
+          attach="attributes-position" 
+          count={particles.length / 3} 
+          array={particles} 
+          itemSize={3} 
+          args={[particles, 3]} 
+        />
       </bufferGeometry>
       <pointsMaterial size={0.02} color="#ffffff" transparent opacity={0.1} sizeAttenuation />
     </points>
